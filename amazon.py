@@ -1,3 +1,7 @@
+# Uses requests-html to extract data from amazon and exports to csv via pandas dataframe
+
+
+
 from requests_html import HTMLSession
 import pandas as pd
 

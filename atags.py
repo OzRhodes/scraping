@@ -2,7 +2,10 @@
 This script extracts full links from a website for individual investigation 
 at a later date.
 
-It could also be a function for a mor e comprehensive web scraping script.
+It could also be a function for a more comprehensive web scraping script.
+
+TODO
+
 '''
 
 
