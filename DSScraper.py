@@ -6,7 +6,7 @@
 from bs4 import BeautifulSoup as bs
 import requests
 
-url = 'http://139.59.176.149:30608/'
+url = 'ADD URL HERE'
 content = requests.get(url).text
 
 #print(content)
@@ -19,7 +19,7 @@ for book in soup.find_all('div', class_='abook'):
     book_list.append(book.h2.a['href'])
 
 #for book_url in book_list:
-url = 'https://sive.rs/' + book_list[0]
+#url = 'https://sive.rs/' + book_list[0]
 #print(url)
 content = requests.get(url).text
 soup = bs(content)
